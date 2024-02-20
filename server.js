@@ -32,7 +32,7 @@ app.use('/user',userRoutes);
 app.use('/admin', adminRoutes);
 
 
-const PORT=process.env.PORT || 8080;
+const PORT=process.env.PORT || 8084;
 
 app.listen(PORT, ()=>{
     console.log(`Server is running at port ${process.env.PORT}`);
